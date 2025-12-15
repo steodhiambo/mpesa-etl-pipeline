@@ -4,7 +4,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue.svg)](https://www.postgresql.org/)
 [![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-2.5+-FF6B6B.svg)](https://airflow.apache.org/)
 
-## Overview
+## Project Overview
 
 An end-to-end ETL pipeline that processes simulated M-Pesa mobile money transaction data, demonstrating real-world data engineering skills relevant to the Kenyan fintech industry. This project showcases data ingestion, transformation, loading, and analytics capabilities using industry-standard tools.
 
@@ -59,7 +59,7 @@ graph TD
 
 ## Security Configuration
 
-⚠️ **Important**: This project includes security best practices:
+ **Important**: This project includes security best practices:
 
 - **Environment Variables**: All sensitive data is configured via environment variables
 - **No Hardcoded Secrets**: Credentials are never stored in code
@@ -79,7 +79,7 @@ graph TD
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mpesa-etl-pipeline.git
+git clone https://github.com/steodhiambo/mpesa-etl-pipeline.git
 cd mpesa-etl-pipeline
 ```
 
@@ -194,12 +194,12 @@ black --check scripts/
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under [MIT](https://mit-license.org/)  - see the LICENSE file for details.
 
 ---
 
 ## Contact
 
-Created by [Your Name] - [your.email@example.com]
+ Created by     [Stephen Odhiambo](https://github.com/steodhiambo/mpesa-etl-pipeline.git)
 
 For questions about this project, feel free to reach out!
